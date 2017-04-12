@@ -1,0 +1,25 @@
+{
+    "name": "eminetto/totalvoice",
+    "description": "TotalVoice API",
+    "type": "totalvoice",
+    "keywords": ["totalvoice"," php","sms","voice"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elton Minetto",
+            "email": "eminetto@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:eminetto/totalvoice.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "eminetto\\totalvoice\\": ""
+        }
+    }
+}
